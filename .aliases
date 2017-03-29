@@ -9,13 +9,19 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Documents/writing"
+alias dw="cd ~/Documents/writing"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/projects"
+alias sc="cd ~/Scripts"
+alias d="cd ~/Documents/work"
+alias teamspace="cd ~/Documents/teamspace"
 alias g="git"
 alias h="history"
 alias j="jobs"
+alias vimrc="vim ~/Scripts/dotfiles/.vimrc"
+alias aliases="vim ~/Scripts/dotfiles/.aliases"
+alias profile="vim ~/Scripts/dotfiles/.bash_profile"
+alias bootstrap="source ~/Scripts/dotfiles/bootstrap.sh"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -161,3 +167,6 @@ alias reload="exec $SHELL -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# My personal aliases
+alias ts="python /Users/rubin/Scripts/timesheet_todoist/bin/timesheet"

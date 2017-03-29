@@ -14,6 +14,7 @@ set textwidth=0
 set wrapmargin=0
 set formatoptions-=t
 set formatoptions+=l
+syntax on
 
 " #Install Plugins
 set rtp+=~/.vim/bundle/Vundle.vim
