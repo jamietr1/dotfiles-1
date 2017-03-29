@@ -3,7 +3,7 @@
 set nocompatible
 set backspace=indent,eol,start
 set hidden
-set filetype plugin indent on
+filetype plugin indent on
 set history=100
 nnoremap ; :
 set tabstop=4
