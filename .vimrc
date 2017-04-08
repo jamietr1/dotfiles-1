@@ -22,11 +22,13 @@ call vundle#begin()
 	Plugin 'VundleVim/Vundle.vim'
 	Plugin '907th/vim-auto-save'
 	Plugin 'vim-airline/vim-airline'
-	Plugin 'chriskempson/vim-tomorrow-theme'
 	Plugin 'vim-airline/vim-airline-themes'
 	Plugin 'nelstrom/vim-markdown-folding'
 	Plugin 'sirtaj/vim-openscad'
 	Plugin 'scrooloose/syntastic'
+	Plugin 'vim-pandoc/vim-pandoc'
+	Plugin 'vim-pandoc/vim-pandoc-syntax'
+	Plugin 'junegunn/goyo.vim'
 call vundle#end()
 
 let g:auto_save=1
@@ -34,9 +36,6 @@ set laststatus=2
 
 syntax on
 syntax enable
-set background=dark
-set t_Co=256
-colorscheme Tomorrow-Night
 
 " #Spelling
 if has("spell")
