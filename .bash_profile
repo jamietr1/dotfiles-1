@@ -49,3 +49,12 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 # ssh-add for git
 /usr/local/bin/ssh-add -A
+
+##
+# Your previous /Users/jamietr/.bash_profile file was backed up as /Users/jamietr/.bash_profile.macports-saved_2018-09-08_at_10:19:05
+##
+
+# MacPorts Installer addition on 2018-09-08_at_10:19:05: adding an appropriate PATH variable for use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+# Finished adapting your PATH environment variable for use with MacPorts.
+

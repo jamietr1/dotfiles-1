@@ -37,10 +37,16 @@ set laststatus=2
 syntax on
 syntax enable
 
+highlight Normal ctermfg=white ctermbg=darkblue
+
+
 " #Spelling
 if has("spell")
 	set spell
 	map <F4> :set spell!<CR><Bar>:echo "Spell check: " . strpart("OffOn", 3 * &spell, 3)
 	highlight PmenuSel ctermfg=black ctermbg=lightgray
+	hi clear SpellBad
+	hi SpellBad cterm=underline
+	hi SpellBad cterm=undercurl ctermfg=red
 	set sps=best,10
 endif
