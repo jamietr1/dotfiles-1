@@ -40,6 +40,7 @@ syntax enable
 let macvim_skip_colorscheme=1
 colorscheme jtr_writing
 
+highlight Normal ctermfg=white ctermbg=darkblue
 
 
 " #Spelling
